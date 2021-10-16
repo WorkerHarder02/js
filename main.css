@@ -1,0 +1,26 @@
+h1{
+    background:yellow;
+    text-align:center;
+}
+*{
+    font-size:50px;
+}
+span{
+    animation:rainbow 5s linear infinite
+}
+@media screen and (max-width:1400px){
+    *{
+        font-size:20px;
+
+    }    }
+@keyframes rainbow{
+    0%{
+        color:red;
+    }
+    50%{
+        color:yellow
+    }
+    100%{
+        color:red;
+    }
+}
